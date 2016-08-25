@@ -1,0 +1,11 @@
+language: node_js
+install:
+- npm install -g elm@0.16
+cache:
+  directories:
+  - elm-stuff/packages
+  - elm-stuff/build-artifacts
+script: bash ./deploy.sh
+env:
+  global:
+    secure: XHTIgF1pNgEjiTPKIydK3RtwTQ5EzrjgELXRrnL0QIkWfgXee8x4OxHAMoogvrt00Qti8tYHOjZDXPILDtn0/ZHKx6YvIKhSFyibepKD2JO6DiZ7X76FtOykUPqSHBWf1oYA/XlA3auQ/dp9JErTCyVyjkMgxdmxjDbQDN66SJjUftcJWYXanM0GGXHDKp5uK+mSKN0vr9gBboaF/PLkjRDizqQdP1ltoyhx7Ja2HRRQrYEGbU0y4fRWagUsmiyD7qlcAJjXEsIQJgSgu62T6bTzjSEOg1CbwJ8rqeit/FyKyZDJy/vM+UwRtLduXfGUQ4qI/5bsgDQm5R05tzuemLHVzbIhH9P4itVKrJ2ghqJKc7n0g6uSVBgl4HL4BH0QnBeNxmE8A47ZKLpYuB/4z7To/T3ZTH9wgVDB5qv9JbkFn8jNz0yMKbICHM9bMo0Psh2+gQp34WXcxDCGEZQjtiKnD47Y5MH3GHwX9urnubQ5SNtbAsiT2czt9VR3xOFsunNYcuIHQoi9Rxfsqudt0/O4TkgpdNG0ZDhx1SrNY99OTY9Q4mpPizJCnovXySmOFO8xIHppmnsohURHsLl0x5m1uZcz4UCKXUS/7IHREJb/hX367dlgGHa1LUY1ZRq4aLyC2uqzlRyK4o+TBjFU0dQ1pmdXs4d52z4yU6vqxIc=
