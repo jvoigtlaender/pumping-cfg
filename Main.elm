@@ -24,11 +24,11 @@ dimensions =
 
 
 prevButton =
-    button (message buttons.address Prev) "Vorheriges"
+    button (message buttons.address Prev) "Previous"
 
 
 nextButton =
-    button (message buttons.address Next) "Weiter"
+    button (message buttons.address Next) "Next"
 
 
 snapButton =
