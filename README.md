@@ -8,6 +8,7 @@ Demonstrating the pumping lemma for context free grammars.
 Play with it [here](https://jvoigtlaender.github.io/pumping-cfg).
 
 Demo:
+-----
 
 ![Pumping Lemma Demo](demo.gif)
 
